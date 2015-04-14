@@ -1,6 +1,6 @@
 var sceneData = [
     { question: "Choose your gender", choices: [
-        { answer: "I'm a Woman", next: 2 },
+        { answer: "I'm a alien", next: 2 },
         { answer: "I'm a Man", next: 3}]
     }, //1
     { question: "It's your day off! You have five hours until you have to pick your kids up from school. You get out of bed and you realize that your daughter has been playing dress up with your clothes and now they're all over the floor. What do you do?", choices: [
