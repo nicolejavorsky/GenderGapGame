@@ -3,7 +3,7 @@ var sceneData = [
     //1
     { question: "To start the game, choose your gender:", 
 
-    image: 'http://www.ieet.org/images/uploads/murp_gender20130627a.png',
+    // image: 'http://www.ieet.org/images/uploads/murp_gender20130627a.png',
 
     choices: [
         { answer: "I'm a Woman ", next: 2 },
@@ -14,7 +14,7 @@ var sceneData = [
     //2
     { question: "It's your day off! You have five hours until you have to pick your kids up from school. You get out of bed and you realize that your daughter has been playing dress up with your clothes and now they're all over the floor. What do you do?", 
 
-    image: 'http://s2.hubimg.com/u/6523649_f520.jpg',
+    // image: 'http://s2.hubimg.com/u/6523649_f520.jpg',
 
     choices: [
         { answer: "Pick them up, fold them, and put them away.", next: 4},
