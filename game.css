@@ -37,6 +37,7 @@ body {
 	font-size: 20px;
 	position: relative;
 	top: 50px;
+	text-align: center;
 }
 
 #footer {
@@ -64,4 +65,15 @@ button {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+img {
+	padding: 20px;
+}
+
+table {
+	float: center;
+	position: relative;
+	left: 30%;
+	text-align: left;
 }

@@ -3,7 +3,7 @@ var sceneData = [
     //1
     { question: "To start the game, choose your gender:", 
 
-    // image: 'http://www.ieet.org/images/uploads/murp_gender20130627a.png',
+    image: '1.gif',
 
     choices: [
         { answer: "I'm a Woman ", next: 2 },
@@ -25,6 +25,8 @@ var sceneData = [
 
     //3
     { question: "It's your day off! You have five hours until you have to pick your kids up from school. You get out of bed and you realize that your kids have emptied your laundry basket onto the floor. What do you do?", 
+
+    image: '3.gif',
 
     choices: [
         { answer: "Pick them up and put them back in the laundry basket.", next: 6},
@@ -157,16 +159,25 @@ var sceneData = [
         ]
     }, 
 
-    //18 END
-    { question: "Time to pick your kids up! Hope you enjoyed your day off! If you were a woman, then you had 2 hours and 36 minutes of leisure time. If you were a man then you had 4 hours and 16 minutes. The rest of the time was spent doing chores. What a difference! You can see more of these gender differences in the chart below!",
+    //18
+    { question: "Time to pick your kids up! Hope you enjoyed your day off! If you were a woman, then you had 2 hours and 36 minutes of leisure time. If you were a man then you had 4 hours and 16 minutes. The rest of the time was spent doing chores. Eek, that's a big difference!",
 
-    // image: 'graph1.jpg',
+    image: '18.gif',
 
     choices: [
-        { answer: "Play Again", next: 1 },
+        { answer: "Continue.", next: 19 },
         ]
     }, 
 
+    //19 END
+    { question: "Look at the chart below for more information about the disparity between the amount of time women and men spend on household chores. Want to start over and try again as another gender?",
+    
+    image: 'graph1.jpg',
+
+    choices: [
+        { answer: "Play Again.", next: 1 },
+        ]
+    }, 
 ];
 
 var ScenesModel = function(scenes) {
@@ -180,6 +191,7 @@ var ScenesModel = function(scenes) {
     self.nextScene = function(choice) {
         self.activequestion(scenes[choice.next - 1].question);
         self.activechoices(scenes[choice.next - 1].choices);
+        self.activeimage(scenes[choice.next - 1].image);
     }
 };
 
