@@ -158,8 +158,10 @@ var sceneData = [
     }, 
 
     //18 END
-    { question: "Time to pick your kids up! Hope you enjoyed your day off!",
+    { question: "Time to pick your kids up! Hope you enjoyed your day off! If you were a woman, then you had 2 hours and 36 minutes of leisure time. If you were a man then you had 4 hours and 16 minutes. The rest of the time was spent doing chores. What a difference! You can see more of these gender differences in the chart below!",
 
+
+    
     choices: [
         { answer: "Play Again", next: 1 },
         ]
