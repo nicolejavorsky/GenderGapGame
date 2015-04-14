@@ -43,96 +43,124 @@ var sceneData = [
     }, 
 
     //5
-    { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", choices: [
+    { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
+    
+    choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 10},
         { answer: "Eat breakfat and do the dishes later.", next: 11},
         ]
     },
 
     //6
-    { question: "That took you exactly 4 minutes. You have 4 hours and 56 minutes left on your day off. You are super hungry from picking up all those clothes. Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", choices: [
+    { question: "That took you exactly 4 minutes. You have 4 hours and 56 minutes left on your day off. You are super hungry from picking up all those clothes. Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
+
+    choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 12},
         { answer: "Eat breakfat and do the dishes later.", next: 13},
         ]
     },
 
     //7
-    { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", choices: [
+    { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
+
+    choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 14},
         { answer: "Eat breakfat and do the dishes later.", next: 15},
         ]
     },
 
     //8
-    { question: "That took you exactly 11 minutes. Then, you eat breakfast. Now you have 4 hours and 13 minutes left on your day off. Take a break:", choices: [
+    { question: "That took you exactly 11 minutes. Then, you eat breakfast. Now you have 4 hours and 13 minutes left on your day off. Take a break:", 
+
+    choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
         ]
     }, 
 
     //9
-    { question: "You do the dishes and it takes you 11 minutes. Now you have 4 hours and 13 minutes left on your day off. Take a break:", choices: [
+    { question: "You do the dishes and it takes you 11 minutes. Now you have 4 hours and 13 minutes left on your day off. Take a break:", 
+
+    choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
         ]
     }, 
 
     //10
-    { question: "That took you exactly 11 minutes. Then, you ate breakfast but realized that there were clothes you need to put away. After spending 16 minutes cleaning the room, you have 4 hours and 13 minutes left on your day off. What do you do?", choices: [
+    { question: "That took you exactly 11 minutes. Then, you ate breakfast but realized that there were clothes you need to put away. After spending 16 minutes cleaning the room, you have 4 hours and 13 minutes left on your day off. What do you do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
         ]
     }, 
 
     //11
-    { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 13 minutes on your day off! What are you going to do?", choices: [
+    { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 13 minutes on your day off! What are you going to do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
         ]
     }, 
 
     //12
-    { question: "You eat breakfast in 20 minutes. You have 4 hours and 33 minutes left on your day off! What are you going to do?", choices: [
+    { question: "You eat breakfast in 20 minutes. You have 4 hours and 33 minutes left on your day off! What are you going to do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
         ]
     }, 
 
     //13
-    { question: "You eat breakfast in 20 minutes and do the dishes in 3 minutes. You still have 4 hours and 33 minutes left on your day off! What are you going to do?", choices: [
+    { question: "You eat breakfast in 20 minutes and do the dishes in 3 minutes. You still have 4 hours and 33 minutes left on your day off! What are you going to do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
         ]
     }, 
 
     //14
-    { question: "That took you 3 minutes. You ate breakfast in 20 minutes, but you realized that there still were clothes you need to put away. You pick up the clothes in 4 minutes. You have 4 hours and 33 minutes on your day off! What are you going to do?", choices: [
+    { question: "That took you 3 minutes. You ate breakfast in 20 minutes, but you realized that there still were clothes you need to put away. You pick up the clothes in 4 minutes. You have 4 hours and 33 minutes on your day off! What are you going to do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
         ]
     }, 
 
     //15
-    { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 33 minutes on your day off! What are you going to do?", choices: [
+    { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 33 minutes on your day off! What are you going to do?", 
+
+    choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
         ]
     }, 
 
     //16
-    { question: "Wow, you spent 2 hours and 36 minutes relaxing! You have 37 minutes left to make dinner before you pick up your kids from school!", choices: [
+    { question: "Wow, you spent 2 hours and 36 minutes relaxing! You have 37 minutes left to make dinner before you pick up your kids from school!", 
+
+    choices: [
         { answer: "Make dinner.", next: 18 },
         ]
     }, 
 
     //17
-    { question: "Wow, you spent 4 hours and 16 minutes relaxing! You have 17 minutes left to make dinner before you pick up your kids from school!", choices: [
+    { question: "Wow, you spent 4 hours and 16 minutes relaxing! You have 17 minutes left to make dinner before you pick up your kids from school!", 
+
+    choices: [
         { answer: "Make dinner.", next: 18 },
         ]
     }, 
 
     //18 END
-    { question: "you win", choices: [
+    { question: "", 
+
+    choices: [
         { answer: "Play Again", next: 1 }
         ]
     }, 
