@@ -7,7 +7,8 @@ var sceneData = [
 
     choices: [
         { answer: "I'm a Woman ", next: 2 },
-        { answer: "I'm a Man", next: 3}]
+        { answer: "I'm a Man", next: 3},
+        ]
     },
  
     //2
@@ -136,6 +137,7 @@ var sceneData = [
         ]
     }, 
 
+];
 
 var ScenesModel = function(scenes) {
     var self = this;
