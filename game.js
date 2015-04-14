@@ -158,7 +158,7 @@ var sceneData = [
     }, 
 
     //18 END
-    { question: "Time to pick your kids up! Hope you enjoyed your day off!"; "Here are some facts about your day: "; " - ";,
+    { question: "Time to pick your kids up! Hope you enjoyed your day off!",
 
     choices: [
         { answer: "Play Again", next: 1 },
