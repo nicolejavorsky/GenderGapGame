@@ -63,15 +63,29 @@ var sceneData = [
     },
 
     //8
-    { question: "That took you exactly 11 minutes. Then, you eat breakfast. Now you have 4 hours and 13 minutes left on your day off.", choices: [
-        { answer: "8 part 1", next: 11 },
-        { answer: "8 part 2", next: 11},
-        { answer: "8 part 3", next: 11},
-        { answer: "8 part 4", next: 10}
+    { question: "That took you exactly 11 minutes. Then, you eat breakfast. Now you have 4 hours and 13 minutes left on your day off.<br> Take a break:", choices: [
+        { answer: "Watch TV.", next: 16 },
+        { answer: "Go for a run.", next: 16},
         ]
     }, 
 
     //9
+    { question: "You do the dishes and it takes you 11 minutes. Now you have 4 hours and 13 minutes left on your day off.<br> Take a break:", choices: [
+        { answer: "Watch TV.", next: 16 },
+        { answer: "Go for a run.", next: 16},
+        ]
+    }, 
+
+    //10
+    { question: "That took you exactly 11 minutes. Then, you eat breakfast. You go back into your room and remember there are clothes you need to put away.", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //11
     { question: "ninth question. What do you do", choices: [
         { answer: "9 part 1", next: 10 },
         { answer: "9 part 2", next: 11},
@@ -80,7 +94,58 @@ var sceneData = [
         ]
     }, 
 
-    //10 WIN
+    //12
+    { question: "ninth question. What do you do", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //13
+    { question: "ninth question. What do you do", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //14
+    { question: "ninth question. What do you do", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //15
+    { question: "ninth question. What do you do", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //16
+    { question: "Wow, you spent 2 hours and 36 minutes relaxing! You have 37 minutes left to make dinner before you pick up your kids from school!", choices: [
+        { answer: "Make dinner.", next: 18 },
+        ]
+    }, 
+
+    //17
+    { question: "ninth question. What do you do", choices: [
+        { answer: "9 part 1", next: 10 },
+        { answer: "9 part 2", next: 11},
+        { answer: "9 part 3", next: 11},
+        { answer: "9 part 4", next: 11}
+        ]
+    }, 
+
+    //18 WIN
     { question: "you win", choices: [
         { answer: "Play Again", next: 1 }
         ]
