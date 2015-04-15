@@ -14,7 +14,7 @@ var sceneData = [
     //2
     { question: "It's your day off! You have five hours until you have to pick your kids up from school. You get out of bed and you realize that your daughter has been playing dress up with your clothes and now they're all over the floor. What do you do?", 
 
-    // image: 'http://s2.hubimg.com/u/6523649_f520.jpg',
+    image: '2.gif',
 
     choices: [
         { answer: "Pick them up, fold them, and put them away.", next: 4},
@@ -37,6 +37,8 @@ var sceneData = [
 
     //4
     { question: "That took you exactly 16 minutes. You have have 4 hours and 44 minutes left on your day off. You are super hungry from picking up all those clothes. Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
+
+    image: '4.gif',
 
     choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 8},
@@ -74,6 +76,8 @@ var sceneData = [
     //8
     { question: "That took you exactly 11 minutes. Then, you eat breakfast. Now you have 4 hours and 13 minutes left on your day off. Take a break:", 
 
+    image: '8.gif',
+
     choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
@@ -82,6 +86,8 @@ var sceneData = [
 
     //9
     { question: "You do the dishes and it takes you 11 minutes. Now you have 4 hours and 13 minutes left on your day off. Take a break:", 
+
+    image: '9.gif',
 
     choices: [
         { answer: "Watch TV.", next: 16 },
@@ -137,6 +143,8 @@ var sceneData = [
     //15
     { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 33 minutes on your day off! What are you going to do?", 
 
+    image: '15.gif',
+
     choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
@@ -153,6 +161,8 @@ var sceneData = [
 
     //17
     { question: "Wow, you spent 4 hours and 16 minutes relaxing! You have 17 minutes left to make dinner before you pick up your kids from school!", 
+
+    image: '17.gif',
 
     choices: [
         { answer: "Make dinner.", next: 18 },
