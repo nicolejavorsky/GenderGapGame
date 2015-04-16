@@ -7,7 +7,7 @@ html, body {
 body {
 	text-align: left;
 	background-image: url('food.png');
-	font-family: 'Inconsolata';
+	font-family: 'Varela Round', sans-serif;
 	letter-spacing: 1px;
 	font-weight: bold;
 	padding: 40px;
@@ -34,7 +34,7 @@ body {
 }
 
 #content {
-	padding-bottom: 200px;
+	padding: 2%;
 	width: auto;
 	height: auto;
 	margin-right: 75px;
@@ -43,6 +43,7 @@ body {
 	position: relative;
 	top: 50px;
 	text-align: center;
+	border: double;
 }
 
 #footer {
