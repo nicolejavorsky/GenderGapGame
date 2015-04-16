@@ -49,6 +49,8 @@ var sceneData = [
     //5
     { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
     
+    image: '5.gif',
+
     choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 10},
         { answer: "Eat breakfat and do the dishes later.", next: 11},
@@ -153,6 +155,8 @@ var sceneData = [
 
     //16
     { question: "Wow, you spent 2 hours and 36 minutes relaxing! You have 37 minutes left to make dinner before you pick up your kids from school!", 
+
+    image: '16.gif',
 
     choices: [
         { answer: "Make dinner.", next: 18 },
