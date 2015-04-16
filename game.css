@@ -6,7 +6,7 @@ html, body {
 
 body {
 	text-align: left;
-	background-image: url('food.png');
+	background-image: url('brickwall.png');
 	font-family: 'Varela Round', sans-serif;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -19,12 +19,12 @@ body {
 	min-height: 100%;
 	width: 100%;
 	position: relative;
-	background-image: url('food.png');
+	background-image: url('brickwall.png');
 }
 
 #header {
 	padding: 10px;
-	background-image: url('food.png');
+	background-image: url('brickwall.png');
 	font-size: 32px;
 	opacity: 0.8;
 	text-align: center;
@@ -54,9 +54,13 @@ body {
 	font-size: 16px;
 	padding: 25px;
 	text-align: center;
-	background-image: url('food.png');
+	background-image: url('brickwall.png');
 	opacity: 0.8;
 	width: 100%;
+}
+
+#button{
+	padding: 10px;
 }
 
 button {
@@ -66,8 +70,8 @@ button {
 	padding-bottom: 15px;
 	position: relative;
 	left: 15px;
-	background-image: url('food.png');
 	color: white;
+	background-color: lightgrey;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
