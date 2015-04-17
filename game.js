@@ -60,6 +60,8 @@ var sceneData = [
     //6
     { question: "That took you exactly 4 minutes. You have 4 hours and 56 minutes left on your day off. You are super hungry from picking up all those clothes. Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
 
+    image: '6.gif',
+
     choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 12},
         { answer: "Eat breakfat and do the dishes later.", next: 13},
@@ -68,6 +70,8 @@ var sceneData = [
 
     //7
     { question: "Time for breakfast. You walk into the kitchen and see that the sink is full of dirty dishes. What do you do?", 
+
+    image: '7.gif',
 
     choices: [
         { answer: "Do the dishes before you eat breakfast.", next: 14},
@@ -100,6 +104,8 @@ var sceneData = [
     //10
     { question: "That took you exactly 11 minutes. Then, you ate breakfast but realized that there were clothes you need to put away. After spending 16 minutes cleaning the room, you have 4 hours and 13 minutes left on your day off. What do you do?", 
 
+    image: '10.gif',
+
     choices: [
         { answer: "Watch TV.", next: 16 },
         { answer: "Go for a run.", next: 16},
@@ -108,6 +114,8 @@ var sceneData = [
 
     //11
     { question: "You eat breakfast in 20 minutes. You have so many chores to do! You do all the dishes in the sink and put the clothes away in your room. Now you have 4 hours and 13 minutes on your day off! What are you going to do?", 
+
+    image: '11.gif',
 
     choices: [
         { answer: "Watch TV.", next: 16 },
@@ -118,6 +126,8 @@ var sceneData = [
     //12
     { question: "You eat breakfast in 20 minutes. You have 4 hours and 33 minutes left on your day off! What are you going to do?", 
 
+    image: '12.gif',
+
     choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
@@ -127,6 +137,8 @@ var sceneData = [
     //13
     { question: "You eat breakfast in 20 minutes and do the dishes in 3 minutes. You still have 4 hours and 33 minutes left on your day off! What are you going to do?", 
 
+    image: '13.gif',
+
     choices: [
         { answer: "Watch TV.", next: 17 },
         { answer: "Go for a run.", next: 17},
@@ -135,6 +147,8 @@ var sceneData = [
 
     //14
     { question: "That took you 3 minutes. You ate breakfast in 20 minutes, but you realized that there still were clothes you need to put away. You pick up the clothes in 4 minutes. You have 4 hours and 33 minutes on your day off! What are you going to do?", 
+
+    image: '14.gif',
 
     choices: [
         { answer: "Watch TV.", next: 17 },
@@ -174,7 +188,7 @@ var sceneData = [
     }, 
 
     //18 END
-    { question: "Time to pick your kids up! Hope you enjoyed your day off! If you were a woman, then you had 2 hours and 36 minutes of leisure time. If you were a man then you had 4 hours and 16 minutes. The rest of the time was spent doing chores. Eek, that's a big difference!",
+    { question: "Time to pick your kids up! Hope you enjoyed your day off! If you were a woman, then you had 2 hours and 36 minutes of leisure time. If you were a man, then you had 4 hours and 16 minutes. The rest of the time was spent doing chores. Eek, that's a big difference!",
 
     image: '18.gif',
 
