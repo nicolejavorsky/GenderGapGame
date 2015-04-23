@@ -45,6 +45,13 @@ body {
 	background-image: url('brickwall.png');
 }
 
+.introtext {
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
 #contentintro {
 	width: auto;
 	height: auto;
@@ -110,4 +117,8 @@ table {
 .profileimg {
 	width: auto;
 	height: 300px;
+}
+
+.btn {
+	font-size: 40px;
 }
