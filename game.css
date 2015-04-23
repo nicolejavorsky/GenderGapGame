@@ -45,6 +45,20 @@ body {
 	background-image: url('brickwall.png');
 }
 
+#contentintro {
+	width: auto;
+	height: auto;
+	margin-right: 75px;
+	margin-left: 75px;
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	border: double;
+	padding: 40px;
+	background-color: white;
+}
+
 #footer {
 	height: auto;
 	position: absolute;
@@ -91,4 +105,9 @@ table {
 .homeimg {
 	width: 500px;
 	height: auto;
+}
+
+.profileimg {
+	width: auto;
+	height: 300px;
 }
