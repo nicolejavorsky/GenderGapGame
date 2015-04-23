@@ -47,23 +47,18 @@ body {
 
 .introtext {
 	font-size: 18px;
-	text-align: center;
-	padding: 20px;
+	text-align: justify;
 	color: black;
+	padding: 20px;
 }
 
-#contentintro {
-	width: auto;
-	height: auto;
-	margin-right: 75px;
-	margin-left: 75px;
-	font-size: 20px;
-	position: relative;
-	top: 50px;
-	text-align: center;
-	border: double;
-	padding: 40px;
-	background-color: white;
+.introtext2 {
+	font-size: 18px;
+	text-align: justify;
+	color: black;
+	padding: 20px;
+	width: 650px;
+	float: right;
 }
 
 #footer {
@@ -109,16 +104,35 @@ table {
 	text-align: left;
 }
 
-.homeimg {
-	width: 500px;
-	height: auto;
-}
-
-.profileimg {
+#profileimg {
 	width: auto;
 	height: 300px;
+	float: left;
 }
 
 .btn {
 	font-size: 40px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+a:active {
+	color: gray;
+}
+
+td {
+	position: relative;
+	right: 300px;
 }
