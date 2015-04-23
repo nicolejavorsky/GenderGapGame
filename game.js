@@ -193,8 +193,8 @@ var sceneData = [
     image: '18.gif',
 
     choices: [
-        { answer: "Play Again.", next: 1 },
-        ]
+        { answer: "Start Over.", next: 1 },
+        ]   
     }, 
 ];
 
@@ -210,6 +210,11 @@ var ScenesModel = function(scenes) {
         self.activequestion(scenes[choice.next - 1].question);
         self.activechoices(scenes[choice.next - 1].choices);
         self.activeimage(scenes[choice.next - 1].image);
+
+        if (choice.next == 1){
+            window.location.href = "index.html";
+        }
+
     }
 };
 
